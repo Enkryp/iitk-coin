@@ -7,6 +7,8 @@ T4 done under "Task 4"-- iitkcoin is executable
 
 Server listens at 127.0.0.1:8000/
 
+a.db has the database for users, transactions
+
 
 T4 Has endpoints:
 
