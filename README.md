@@ -2,6 +2,32 @@
 
 repo for iitk-coin project 
 
+
+
+--------------------------------------------------------------------
+[UPD:Task 5]:
+
+Tables added to a.db :
+
+Reedme (Contains Awards, Prices, AwardId)
+Pending (Contains Pending Txns for Gensec to verify)
+
+
+3 endpoints added:
+
+/add/: Authorised person can create awards for GBM
+ex: {"Roll":"200536", "Award":"T-shirt", "Coins":"100", "JWT":"JWT"}
+
+/redeem/: GBM can create redeem requests to Gensec, by selecting Id of award
+ex: {"Roll":"200536", "JWT":"JWT", "Id":"123"}
+
+/approve/: Gensec can approve requests here by selecting txn id.
+ex: {"Roll":"200536", "JWT":"JWT", "Id":"123"}
+
+
+
+
+--------------------------------------------------------------------
 T4 done under "Task 4"-- iitkcoin is executable
 
 
