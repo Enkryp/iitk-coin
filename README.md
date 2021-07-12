@@ -5,10 +5,10 @@ repo for iitk-coin project
 
 
 --------------------------------------------------------------------
-##[UPD:Task 5]:
+## [UPD:Task 5]:
 
 
-##Tables added to a.db :
+## Tables added to a.db :
 
 
 
@@ -18,7 +18,7 @@ Pending (Contains Pending Txns for Gensec to verify)
 
 
 
-##3 endpoints added:
+## 3 endpoints added:
 
 
 
@@ -42,7 +42,7 @@ Pending (Contains Pending Txns for Gensec to verify)
 
 
 --------------------------------------------------------------------
-##T4 done under "Task 4"-- iitkcoin is executable
+## T4 done under "Task 4"-- iitkcoin is executable
 
 
 Server listens at 127.0.0.1:8000/
@@ -50,7 +50,7 @@ Server listens at 127.0.0.1:8000/
 a.db has the tables for users, transactions
 
 
-##T4 Has endpoints:
+## T4 Has endpoints:
 
 
 /signup/: Accepts Requests for new user creation
