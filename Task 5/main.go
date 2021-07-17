@@ -34,6 +34,13 @@ func main() {
 	}
 	stat4.Exec()
 
+	stat5, err := dbase.Prepare("CREATE TABLE IF NOT EXISTS  Otp (id INTEGER PRIMARY KEY, pass TEXT, time TEXT, fail INTEGER)")
+
+	if err != nil {
+		log.Fatal(err.Error())
+	}
+	stat5.Exec()
+
 	http.HandleFunc("/create/", create)
 	http.HandleFunc("/transfer/", transfer)
 	http.HandleFunc("/check/", check)
