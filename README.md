@@ -7,7 +7,7 @@ repo for iitk-coin project
 --------------------------------------------------------------------
 ## [UPD:Task 5]:
 
-###[UPD: OTP added to signup]
+### [UPD: OTP added to signup]
 
 JSON req on /signup now requires OTP entry, put OTP = "NULL" if u want to generate new one.
 
