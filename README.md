@@ -1,7 +1,7 @@
 # iitk-coin
 
 repo for iitk-coin project 
-
+s
 
 
 --------------------------------------------------------------------
@@ -11,7 +11,7 @@ repo for iitk-coin project
 
 JSON req on /signup now requires OTP entry, put OTP = "NULL" if u want to generate new one.
 
-OTP expire in 5 mins. 
+OTPs expire in 5 mins. 
 
 You get only 2 tries per OTP (to prevent bruteforce attack), failing both tries you need to generate a new one.
 
