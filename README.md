@@ -1,7 +1,6 @@
 # iitk-coin
 
-repo for iitk-coin project 
-s
+repo for iitk-coin project
 
 
 --------------------------------------------------------------------
