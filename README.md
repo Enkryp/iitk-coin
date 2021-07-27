@@ -153,13 +153,6 @@ ex: {"Roll":"200536", "JWT":"JWT", "Id":"123"}
 
 
 
-/signup/: Accepts Requests for new user creation
-
-```
-ex: {"Roll":"200536", "Pass":"pass"}
-
-```
-
 
 
 /login/: listens to login requests, returns JWT if credentials are found to be valid.
@@ -203,9 +196,9 @@ ex:  {"From": "200536", "To": "123456", "Coins": "120","JWT":"Val"}
 ```
 OTP :	CREATE TABLE Otp (id INTEGER PRIMARY KEY,pass TEXT, time TEXT, fail INTEGER)
 
-Pending:	CREATE TABLE Pending (id INTEGER PRIMARY KEY,awardId INTEGER, coins INTEGER, Recipient INTEGER)
+Pending:    CREATE TABLE Pending (id INTEGER PRIMARY KEY,awardId INTEGER, coins INTEGER, Recipient INTEGER)
 
-Reedem:		CREATE TABLE Redeem (id INTEGER PRIMARY KEY,Item TEXT , coins INTEGER, Recipient INTEGER)
+Reedem:    CREATE TABLE Redeem (id INTEGER PRIMARY KEY,Item TEXT , coins INTEGER, Recipient INTEGER)
 
 Tx: 	CREATE TABLE Tx (id INTEGER PRIMARY KEY,Time TEXT , coins INTEGER, txfrom INTEGER, txto INTEGER)
 
