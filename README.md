@@ -102,21 +102,21 @@ This repository contains the backend code for the IITK Coin which is a reward ba
 POST requests take place via `JSON` requests on localhost:8000/
 
  
+Note that: 
+- [UPD: OTP added to signup]
 
-### [UPD: OTP added to signup]
+- JSON req on /signup now requires OTP entry, put OTP = "NULL" if u want to generate new one.
 
-JSON req on /signup now requires OTP entry, put OTP = "NULL" if u want to generate new one.
+- OTPs expire in 5 mins. 
 
-OTPs expire in 5 mins. 
+- You get only 2 tries per OTP (to prevent bruteforce attack), failing both tries you need to generate a new one.
 
-You get only 2 tries per OTP (to prevent bruteforce attack), failing both tries you need to generate a new one.
-
-OTPs are 4 digits, may start with 0(s).
-
-
+- OTPs are 4 digits, may start with 0(s).
 
 
-##example JSONs on endpoints 
+
+
+#### Example JSONs on endpoints 
 
 /signup/ : New signups here...
 ```
